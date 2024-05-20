@@ -9,6 +9,29 @@
     box-sizing: border-box;
 }
 
+/*Generic styles*/
 body {
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*Header*/
+header {}
+
+/*Main*/
+
+main {
+    /*Make the main element take up any surplus space to push the footer down*/
+    flex: 1 0 auto;
+}
+
+/*Footer*/
+#social-networks {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
 }
