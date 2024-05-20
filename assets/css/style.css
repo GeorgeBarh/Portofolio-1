@@ -1,6 +1,6 @@
 /*Import Google font*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -19,13 +19,45 @@ body {
 }
 
 /*Header*/
-header {}
+header {
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    box-shadow: 0 2px 2px black;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#menu {
+    list-style-type: none;
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu>li {
+    margin-bottom: 5px;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
 
 /*Main*/
 
 main {
     /*Make the main element take up any surplus space to push the footer down*/
     flex: 1 0 auto;
+    margin-top: 125px;
 }
 
 /*Footer*/
