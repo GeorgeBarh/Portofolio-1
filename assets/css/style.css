@@ -1,6 +1,6 @@
 /*Import Google font*/
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -25,6 +25,10 @@ header {
     z-index: 2;
     width: 100%;
     box-shadow: 0 2px 2px black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -33,7 +37,7 @@ header a {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Anek Devanagari", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -52,12 +56,59 @@ h1 {
     border-bottom: 1px solid black;
 }
 
+/*Navbar styles with dropdown toggle */
+
+nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    margin-top: 2px;
+    box-shadow: 0 2px 2px inherit;
+    display: none;
+    top: 100%;
+}
+
+/*Nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /*Main*/
 
 main {
     /*Make the main element take up any surplus space to push the footer down*/
     flex: 1 0 auto;
-    margin-top: 125px;
+    margin-top: 54px;
+}
+
+#hero {
+    width: 100%;
+    min-height: 600px;
+    background: url(../images/hero-image.jpg) center center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Quote in the hero image*/
+.quote {
+    width: 40%;
+    font-size: 110%;
+    color: white;
+    background-color: rgba(60, 60, 60, .5);
+    text-align: center;
+    margin-top: 20%;
+    border-radius: 5px;
 }
 
 /*Footer*/
