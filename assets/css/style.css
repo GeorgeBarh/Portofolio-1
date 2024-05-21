@@ -1,6 +1,6 @@
 /*Import Google font*/
 
-@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Arvo:ital,wght@1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -12,10 +12,10 @@
 /*Generic styles*/
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
 }
 
 /*Header*/
@@ -45,7 +45,7 @@ h1 {
 #menu {
     list-style-type: none;
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 #menu>li {
@@ -53,6 +53,11 @@ h1 {
 }
 
 .active {
+    border-bottom: 1px solid black;
+}
+
+
+a:hover {
     border-bottom: 1px solid black;
 }
 
@@ -91,9 +96,19 @@ main {
     margin-top: 54px;
 }
 
+section {
+    padding: 1em 2em;
+}
+
+section a {
+    text-decoration: none;
+    color: inherit;
+    font-style: italic;
+}
+
 #hero {
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     background: url(../images/hero-image.jpg) center center/cover no-repeat;
     display: flex;
     justify-content: center;
@@ -102,21 +117,86 @@ main {
 
 /*Quote in the hero image*/
 .quote {
-    width: 40%;
-    font-size: 100%;
-    color: white;
-    background-color: rgba(60, 60, 60, .1);
+    width: 50%;
+    font-size: 80%;
+    font-family: 'Arvo', serif;
+    color: #1c1b1b;
+    background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
     margin-top: 20%;
     border-radius: 5px;
 }
+
+/*About us section*/
+
+
+
+#questions div {
+    padding-top: 5px;
+}
+
+/*Pillars section*/
+
+#pillars p {
+    padding-bottom: 0.5em;
+}
+
+#categories {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#categories div {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    height: 30vh;
+    text-align: center;
+    flex: 1 0 200px;
+}
+
+#health {
+    background: url(../images/health.jpg) center center/ cover;
+}
+
+#social-connections {
+    background: url(../images/socialize.jpg) center center/ cover;
+
+}
+
+#financial-stability {
+    background: url(../images/finance.jpg) center center/ cover;
+}
+
+#categories div span {
+    font-size: 1em;
+    align-self: flex-end;
+    padding-left: 1em;
+    padding-bottom: 0.2em;
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(17, 16, 16, 0.3);
+}
+
+#categories a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
 
 /*Footer*/
 #social-networks {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+}
 
+#social-networks i {
+    font-size: 180%;
+    color: black;
 }
 
 /*Media query tablets and larger (>768 px)*/
@@ -132,10 +212,12 @@ main {
 
     #menu {
         display: flex;
+        justify-content: space-evenly;
     }
 
     #menu>li {
         padding-left: 1em;
+
     }
 
     .nav-toggle-label {
@@ -145,13 +227,44 @@ main {
     #logo {
         font-size: 270%;
         margin: 5px 10px;
+        width: max-content;
+    }
+
+    .quote {
+        font-size: 120%;
+    }
+
+    /*about us section*/
+    #questions {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #questions>div {
+        padding: 5px;
+        line-height: 22px;
+        flex-basis: 400px;
+    }
+
+    #questions>div h2 {
+        padding: 5px;
+    }
+
+    #who {
+        align-self: baseline;
+    }
+
+    #what {
+        align-self: center;
     }
 }
 
 /*Media query for laptops and up (>992px)*/
 
 @media screen and (min-width:992px) {
-    #menu a:hover {
-        border-bottom: 1px solid black;
+
+    .quote {
+
+        font-size: 150%;
     }
 }
