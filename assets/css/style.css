@@ -93,7 +93,7 @@ main {
 
 #hero {
     width: 100%;
-    min-height: 600px;
+    height: 80vh;
     background: url(../images/hero-image.jpg) center center/cover no-repeat;
     display: flex;
     justify-content: center;
@@ -103,9 +103,9 @@ main {
 /*Quote in the hero image*/
 .quote {
     width: 40%;
-    font-size: 110%;
+    font-size: 100%;
     color: white;
-    background-color: rgba(60, 60, 60, .5);
+    background-color: rgba(60, 60, 60, .1);
     text-align: center;
     margin-top: 20%;
     border-radius: 5px;
@@ -117,4 +117,41 @@ main {
     justify-content: space-around;
     list-style-type: none;
 
+}
+
+/*Media query tablets and larger (>768 px)*/
+
+@media screen and (min-width:768px) {
+    /*Header*/
+
+    nav {
+        position: relative;
+        display: block;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1em;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 270%;
+        margin: 5px 10px;
+    }
+}
+
+/*Media query for laptops and up (>992px)*/
+
+@media screen and (min-width:992px) {
+    #menu a:hover {
+        border-bottom: 1px solid black;
+    }
 }
