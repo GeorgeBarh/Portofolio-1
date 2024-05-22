@@ -94,6 +94,8 @@ main {
     /*Make the main element take up any surplus space to push the footer down*/
     flex: 1 0 auto;
     margin-top: 54px;
+    display: flex;
+    flex-direction: column;
 }
 
 section {
@@ -128,8 +130,6 @@ section a {
 }
 
 /*About us section*/
-
-
 
 #questions div {
     padding-top: 5px;
@@ -198,6 +198,88 @@ section a {
     font-size: 180%;
     color: black;
 }
+
+/* Book a call page */
+#booking {
+    background: url(../images/booking.jpg) center / cover no-repeat;
+    flex-grow: 1;
+}
+
+
+#booking-form {
+    background-color: rgba(17, 16, 16, 0.4);
+    color: #ffffff;
+    padding: 30px;
+
+}
+
+#booking-form h1 {
+    text-align: center;
+    font-size: 200%;
+    padding-top: 20px;
+    color: white;
+}
+
+.input-fields {
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    margin: 10px 0;
+}
+
+#check-buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#check-buttons div {
+    padding: 5px 0;
+}
+
+#day {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.day-bg-color {
+    margin-top: 5px;
+    min-height: 25px;
+    background-color: rgba(17, 16, 16, 0.4);
+    color: white;
+}
+
+#time {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    font-size: large;
+    flex-wrap: wrap;
+}
+
+#time div {
+    padding: 5px;
+}
+
+.submit-button {
+    background-color: aliceblue;
+    color: black;
+    font-size: 100%;
+    font-style: oblique;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+
+
+
 
 /*Media query tablets and larger (>768 px)*/
 

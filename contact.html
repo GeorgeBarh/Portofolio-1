@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well-being</title>
+    <meta name="description"
+        content="Well-being.A website that describes the main problems of our daily life and focuses on their solutions.">
+    <meta name="keywords"
+        content="problems, solution ,well-being, life, time management, money, focus, relationships,healthy, how to, happy, ">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Well-being.</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About us</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href=".contact.html" class="active">Book a call</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="booking">
+            <form id="booking-form" action="#" method="POST">
+                <h1>Let's book our call!</h1>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname" class="input-fields" required>
+                <br>
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname" class="input-fields" required>
+                <br>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" value="+353" class="input-fields" required>
+                <br>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" class="input-fields" required>
+
+
+                <h2>Areas you want to improve:</h2>
+
+                <div id="check-buttons">
+                    <div>
+                        <label for="health-button">Health</label>
+                        <input type="checkbox" id="health-button" name="health-button" value="Health">
+                    </div>
+                    <div>
+                        <label for="social-button">Social Connections</label>
+                        <input type="checkbox" id="social-button" name="socia-button" value="Social">
+                    </div>
+                    <div>
+                        <label for="finance-button">Financial Stability</label>
+                        <input type="checkbox" id="finance-button" name=" finance-button" value="Finance">
+                    </div>
+                </div>
+
+                <div id="day">
+                    <h2>Pick a day!</h2>
+                    <input class="day-bg-color" id="day-list" name="day-list" list="days" required>
+                    <datalist id="days">
+                        <option value="Monday"></option>
+                        <option value="Tuesday"></option>
+                        <option value="Wednesday"></option>
+                        <option value="Thursday"></option>
+                        <option value="Friday"></option>
+                        <option value="Saturday"></option>
+                    </datalist>
+                </div>
+
+                <h2>Pick a time!</h2>
+
+                <div id="time">
+                    <div id="first-four-hours">
+
+                        <div>
+                            <label for="nine-ten">09:00 - 10:00 </label>
+                            <input type="radio" name="time-preference" id="nine-ten" value="nine-ten" required checked>
+                        </div>
+
+
+                        <div>
+                            <label for="ten-eleven">10:00 - 11:00 </label>
+                            <input type="radio" name="time-preference" id="ten-eleven" value="ten-eleven" required>
+                        </div>
+
+                        <div>
+                            <label for="eleven-twelve">11:00 - 12:00 </label>
+                            <input type="radio" name="time-preference" id="eleven-twelve" value="eleven-twelve"
+                                required>
+                        </div>
+
+                        <div>
+                            <label for="twelve-one">12:00 - 13:00 </label>
+                            <input type="radio" name="time-preference" id="twelve-one" value="twelve-one" required>
+                        </div>
+
+                    </div>
+                    <div id="last-four-hours">
+
+                        <div>
+                            <label for="one-two">13:00 - 14:00 </label>
+                            <input type="radio" name="time-preference" id="one-two" value="one-two" required>
+                        </div>
+
+                        <div>
+                            <label for="two-three">14:00 - 15:00 </label>
+                            <input type="radio" name="time-preference" id="two-three" value="two-three" required>
+                        </div>
+
+                        <div>
+                            <label for="three-four">15:00 - 16:00 </label>
+                            <input type="radio" name="time-preference" id="three-four" value="three-four" required>
+                        </div>
+
+                        <div>
+                            <label for="four-five">16:00 - 17:00 </label>
+                            <input type="radio" name="time-preference" id="four-five" value="four-five" required>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-button">Book the call!</button>
+
+
+            </form>
+        </section>
+
+    </main>
+    <footer>
+
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/c2f81324ca.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
