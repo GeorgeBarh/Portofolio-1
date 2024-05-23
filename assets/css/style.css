@@ -348,12 +348,4 @@ footer {
         font-size: 150%;
     }
 
-    /*Main*/
-
-    /*About section*/
-    /*Make the distance between the 2 divs smaller*/
-    #questions .flex>div {
-        /* padding-left: 40%; */
-    }
-
 }
