@@ -146,10 +146,18 @@ hr {
     margin-bottom: 5px;
 }
 
+span {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 120%;
+}
+
 /*Footer*/
 
 footer {
-    height: 10%;
+    padding: 20px 0;
+    height: 20%;
+    background-color: aquamarine;
 }
 
 #social-networks {
@@ -289,9 +297,9 @@ footer {
     }
 
     /*about us section*/
+
     #questions {
         display: flex;
-        justify-content: space-around;
     }
 
     #questions>div {
@@ -300,17 +308,32 @@ footer {
         flex-basis: 400px;
     }
 
-    #questions>div h2 {
-        padding: 5px;
-        font-family: 'Roboto', sans-serif;
+    #questions .flex>div {
+        margin-right: 20%;
     }
 
-    #who {
-        align-self: baseline;
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
     }
 
     #what {
-        align-self: center;
+        margin-top: 2em;
+    }
+
+    /*Book a call page*/
+
+    /* Make the form smaller*/
+
+    #booking-form {
+        width: 60%;
+    }
+
+    /*Adjust the checkboxes */
+
+    #check-buttons {
+        justify-content: space-between;
     }
 }
 
@@ -318,8 +341,19 @@ footer {
 
 @media screen and (min-width:992px) {
 
-    .quote {
+    /*Header*/
 
+    /*Change the size in the quote so as to be bigger*/
+    .quote {
         font-size: 150%;
     }
+
+    /*Main*/
+
+    /*About section*/
+    /*Make the distance between the 2 divs smaller*/
+    #questions .flex>div {
+        /* padding-left: 40%; */
+    }
+
 }
