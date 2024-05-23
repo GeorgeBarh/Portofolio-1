@@ -92,6 +92,7 @@ nav {
 
 main {
     /*Make the main element take up any surplus space to push the footer down*/
+
     flex: 1 0 auto;
     margin-top: 54px;
     display: flex;
@@ -131,67 +132,33 @@ section a {
 
 /*About us section*/
 
-#questions div {
-    padding-top: 5px;
+#about h1 {
+    font-size: 180%;
 }
 
-/*Pillars section*/
-
-#pillars p {
-    padding-bottom: 0.5em;
-}
-
-#categories {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+#about h2 {
+    text-transform: uppercase;
+    font-family: "Anek Devanagari", sans-serif;
 
 }
 
-#categories div {
-    display: flex;
-    align-items: center;
-    border: 1px solid black;
-    height: 30vh;
-    text-align: center;
-    flex: 1 0 200px;
+hr {
+    margin-bottom: 5px;
 }
-
-#health {
-    background: url(../images/health.jpg) center center/ cover;
-}
-
-#social-connections {
-    background: url(../images/socialize.jpg) center center/ cover;
-
-}
-
-#financial-stability {
-    background: url(../images/finance.jpg) center center/ cover;
-}
-
-#categories div span {
-    font-size: 1em;
-    align-self: flex-end;
-    padding-left: 1em;
-    padding-bottom: 0.2em;
-    display: inline-block;
-    width: 100%;
-    background-color: rgba(17, 16, 16, 0.3);
-}
-
-#categories a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-
 
 /*Footer*/
+
+footer {
+    height: 10%;
+}
+
 #social-networks {
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     list-style-type: none;
+
 }
 
 #social-networks i {
@@ -199,7 +166,9 @@ section a {
     color: black;
 }
 
+
 /* Book a call page */
+
 #booking {
     background: url(../images/booking.jpg) center / cover no-repeat;
     flex-grow: 1;
@@ -220,6 +189,8 @@ section a {
     color: white;
 }
 
+/*Contact details*/
+
 .input-fields {
     background: transparent;
     width: 100%;
@@ -230,17 +201,20 @@ section a {
     margin: 10px 0;
 }
 
+/*Areas you want to improve */
 #check-buttons {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 10px;
 }
 
 #check-buttons div {
     padding: 5px 0;
 }
+
+/* Day and time sector*/
 
 #day {
     padding: 20px 0;
@@ -278,12 +252,10 @@ section a {
 }
 
 
-
-
-
 /*Media query tablets and larger (>768 px)*/
 
 @media screen and (min-width:768px) {
+
     /*Header*/
 
     nav {
@@ -330,6 +302,7 @@ section a {
 
     #questions>div h2 {
         padding: 5px;
+        font-family: 'Roboto', sans-serif;
     }
 
     #who {
