@@ -21,16 +21,16 @@
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" aria-label="Directs you to the home page">Home</a></li>
                 <li><a href="index.html#about">About us</a></li>
-                <li><a href=".contact.html" class="active">Book a call</a></li>
+                <li><a href=".contact.html" class="active" aria-label="Visit our book-a-call page">Book a call</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="booking">
             <form id="booking-form" action="https://formdump.codeinstitute.net" method="POST">
-                <h1>Let's book our call!</h1>
+                <h2 id="form-heading">Let's book our call!</h2>
                 <label for="fname">First Name</label>
                 <input type="text" name="fname" id="fname" class="input-fields" required>
                 <br>

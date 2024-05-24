@@ -36,7 +36,7 @@ header a {
     color: inherit;
 }
 
-h1 {
+#logo {
     font-family: "Anek Devanagari", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -70,7 +70,6 @@ nav {
     left: 0;
     padding: 0 1rem;
     margin-top: 2px;
-    box-shadow: 0 2px 2px inherit;
     display: none;
     top: 100%;
 }
@@ -109,6 +108,8 @@ section a {
     font-style: italic;
 }
 
+/*Hero image*/
+
 #hero {
     width: 100%;
     height: 85vh;
@@ -132,8 +133,11 @@ section a {
 
 /*About us section*/
 
-#about h1 {
+#about-heading {
     font-size: 180%;
+    font-family: "Anek Devanagari", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #about h2 {
@@ -190,11 +194,14 @@ footer {
 
 }
 
-#booking-form h1 {
+#form-heading {
     text-align: center;
     font-size: 200%;
     padding-top: 20px;
     color: white;
+    font-family: "Anek Devanagari", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /*Contact details*/
