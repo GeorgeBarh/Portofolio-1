@@ -156,6 +156,28 @@ span {
     font-size: 120%;
 }
 
+#video-wrapper {
+height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#video-wrapper h3 {
+    margin-bottom: 20px;
+}
+
+#video {
+    max-width: 100%;
+    min-width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    
+}
+
+
 /*Footer*/
 
 footer {
@@ -354,5 +376,14 @@ footer {
     .quote {
         font-size: 150%;
     }
+
+    /*Video section*/
+
+    /*Make the iframe smaller*/
+
+#video {
+max-width: 70%;
+min-width: 70%;
+}
 
 }
