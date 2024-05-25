@@ -108,7 +108,7 @@ section a {
 
 #hero {
     width: 100%;
-    height: 85vh;
+    height: 60vh;
     background: url(../images/hero.webp) center center/cover no-repeat;
     display: flex;
     justify-content: center;
@@ -182,7 +182,7 @@ span {
 
 footer {
     padding: 20px 0;
-    height: 20%;
+    height: 40%;
     background-color: aquamarine;
 }
 
@@ -319,6 +319,10 @@ footer {
         font-size: 270%;
         margin: 5px 10px;
         width: max-content;
+    }
+
+    #hero {
+        height: 60vh;
     }
 
     .quote {
