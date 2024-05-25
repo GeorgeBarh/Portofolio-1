@@ -1,7 +1,3 @@
-/*Import Google font*/
-
-@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Arvo:ital,wght@1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -122,13 +118,17 @@ section a {
 /*Quote in the hero image*/
 .quote {
     width: 50%;
-    font-size: 80%;
-    font-family: 'Arvo', serif;
     color: #1c1b1b;
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
     margin-top: 20%;
     border-radius: 5px;
+}
+
+.quote-font {
+    font-size: 110%;
+    font-family: 'Arvo', serif;
+    font-style: italic;
 }
 
 /*About us section*/
@@ -157,7 +157,7 @@ span {
 }
 
 #video-wrapper {
-height: 500px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,7 +174,7 @@ height: 500px;
     min-width: 100%;
     height: 100%;
     border-radius: 5px;
-    
+
 }
 
 
@@ -374,16 +374,16 @@ footer {
 
     /*Change the size in the quote so as to be bigger*/
     .quote {
-        font-size: 150%;
+        font-size: 160%;
     }
 
     /*Video section*/
 
     /*Make the iframe smaller*/
 
-#video {
-max-width: 70%;
-min-width: 70%;
-}
+    #video {
+        max-width: 70%;
+        min-width: 70%;
+    }
 
 }
