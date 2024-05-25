@@ -108,7 +108,7 @@ section a {
 
 #hero {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     background: url(../images/hero.webp) center center/cover no-repeat;
     display: flex;
     justify-content: center;
@@ -381,6 +381,13 @@ footer {
         font-size: 160%;
     }
 
+    /*Main*/
+    /*Hero image*/
+
+    #hero {
+        height: 80vh;
+    }
+
     /*Video section*/
 
     /*Make the iframe smaller*/
@@ -389,5 +396,15 @@ footer {
         max-width: 70%;
         min-width: 70%;
     }
+}
 
+
+@media screen and (min-width>1440) {
+    #hero {
+        height: 90vh;
+    }
+
+    #quote {
+        font-size: 150%;
+    }
 }
