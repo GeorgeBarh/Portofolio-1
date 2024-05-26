@@ -69,4 +69,86 @@ Well-being is the website of non-profit organization that provides consulting se
    ![Screenshot of the availability part of the form](assets/images/readme/form2-input.png)
 
    ## Testing
+
+   I have tested the responsiveness of the website in Google Chrome, Microsoft Edge, and Mozilla Firefox and every works as it should.
+
+- Header 
+    - The *logo* (WELL-BEING) is an anchor link and links to the home page (index.html).
+    - The *navigation bar* includes three anchor links. In mobile screens responds as a toggle button and in  tablet screens and above (>768 px) the anchor links are displayed side by side. 
+       
+        1. 'Home' : When the user clicks it, links them to the *home page* (index.html).
+        2. 'About us' : When the user clicks it, links them to the *ABOUT US* section of the home page.
+        3. 'Book a call : When the user clicks it, links to the *contact form* (contact.html).
+
+- Footer 
+  - The footer contains three font awesome icons that each of them links the user to the corresponding social media page. The pages are opening in a new tab in order the user not leave the home page.
+
+- Book a call page 
+  - The form contains eight input fields that the user has to fill in in order to be able to sumbit the form. Only the six of the them are required. 
+      1. The *Phone Number* is a non required field because a lot of users are hesitating to provide such a sensitive information and it is possible not to sumbit the form for that reason.
+      2. The *Areas you want to improve* field is a non required because is working as an indication for the Well-Being team and gives the user a sense of control about the upcoming appointment
+
+- Bugs 
+
+ 1. In the *Book a call* page the *about us* anchor link of the navigation bar could not link to the proper element.
+ ![Screenshot of the above bug](assets/images/readme/about-us-bug.png)
+  After research in the Stack Overflow I realised that I had to write the following.
+  ![Screenshot of the above solution](assets/images/readme/about-us-solution.png)
+
+ 2. After the lighthouse overview in the Chrome DevTools I realised that the performance of website was very poor because of delay to load the background images. 
+    - Based on the DevTools instructions I preloaded both of the background images in the head element.
+    ![Screenshot of the hero image preload](assets/images/readme/preload-hero.png)
+    ![Screenshot of the booking image preload](assets/images/readme/preload-booking.png)
+
+    3. In order to further improve the performance of the website I converted the  background images from .jpg to webp after the instruction of the Chrome DevTools.
+
+    
+
+    - Validator Testing 
+      1. HTML
+         - No errors or warnings to show in [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html#textarea)
+      2.  CSS 
+          - Erros according to [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) : 
+
+          ![CSS Validator errors](assets/images/readme/css-errors.png)
+          ![CSS css file errors](assets/images/readme/css-errors-screenshot.png)
+
+          Solution : delete this part of the code as it was not absolutely necessery.
+        3. Accessibility
+           - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighhouse in DevTools.
+
+           ![Screenshot of Lighthouse score](assets/images/readme/lighthouse.png)
+
+  ## Deployment
+    
+ - The site is deployed to GitHub pages.
+      1. In the GitHub Repository, I went ot the Settings tab.
+      2. In the dropdown menu, I clicked the Pages tab.
+      3. From the source section drop-down menu, I selected the Main Branch.
+
+      The live link can be found here [Well-Being Project](-https://georgebarh.github.io/well-being-Portofolio-1/).
+
+ ## Credits
+
+  - Content
+     - Instructions about the whole structure of the project were taken from the CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) project.
+
+     - The navigation toggle bar code was taken from the CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) project.
+
+  The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+  - Media
+    - Both the background images was taken from [Pexels](https://www.pexels.com/search/free/).
+
+          
+
+
+
+
+       
+
+
+
+
+     
     

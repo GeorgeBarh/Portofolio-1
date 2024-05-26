@@ -391,12 +391,3 @@ footer {
         min-width: 70%;
     }
 }
-
-
-@media screen and (min-width>1440) {
-
-
-    #quote {
-        font-size: 150%;
-    }
-}
