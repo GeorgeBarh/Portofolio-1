@@ -63,5 +63,10 @@ Well-being is the website of non-profit organization that provides consulting se
   The contact is simple and requires first name, last name, phone number and email adress.  
    - The second part of the page contains a check button and a radio button and gives the opportunity to the user to provide day and time availability for the first call.
 
-   -The point of such a simple structure is the user to be encouraged to sumbit the form by providing name, address and by clicking two buttons. The phone number is not a required field. 
+   -The point of such a simple structure is the user to be encouraged to sumbit the form by providing name, address and by clicking two buttons. The phone number and the *Areas you want to improve* is not a required field. 
+
+   ![Screenshot of the contact details part of the form.](assets/images/readme/form1-screenshot.png)
+   ![Screenshot of the availability part of the form](assets/images/readme/form2-input.png)
+
+   ## Testing
     
