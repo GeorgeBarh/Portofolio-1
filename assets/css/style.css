@@ -200,6 +200,11 @@ footer {
     color: black;
 }
 
+.copyright {
+    text-align: center;
+    padding: 5px;
+}
+
 
 /* Book a call page */
 
