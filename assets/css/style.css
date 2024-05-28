@@ -133,8 +133,18 @@ section a {
 
 /*About us section*/
 
+#questions div {
+    padding: 10px;
+}
+
+#questions hr {
+    margin-bottom: 5px;
+}
+
+
 #about-heading {
-    font-size: 180%;
+    text-align: center;
+    font-size: 200%;
     font-family: "Anek Devanagari", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -143,11 +153,9 @@ section a {
 #about h2 {
     text-transform: uppercase;
     font-family: "Anek Devanagari", sans-serif;
-
-}
-
-hr {
-    margin-bottom: 5px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 span {
@@ -155,6 +163,8 @@ span {
     font-weight: bold;
     font-size: 120%;
 }
+
+/*Video section*/
 
 #video-wrapper {
     height: 500px;
@@ -337,29 +347,15 @@ footer {
     /*about us section*/
 
     #questions {
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
         display: flex;
+        flex-direction: column;
     }
 
-    #questions>div {
-        padding: 5px;
-        line-height: 22px;
-        flex-basis: 400px;
-    }
 
-    #questions .flex>div {
-        margin-right: 20%;
-    }
-
-    .flex {
-        display: flex;
-        flex-wrap: wrap;
-        flex-grow: 1;
-    }
-
-    #what {
-        margin-top: 2em;
-    }
-
+    */
     /*Book a call page*/
 
     /* Make the form smaller*/
