@@ -107,12 +107,11 @@ section a {
 /*Hero image*/
 
 #hero {
-    height: 80vh;
-    background: url(../images/hero.webp) center center/cover no-repeat;
+    height: 85vh;
+    background: url(../images/hero.jpg) top / cover no-repeat;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-grow: 1;
+    justify-content: flex-start;
 }
 
 /*Quote in the hero image*/
@@ -355,7 +354,7 @@ footer {
     }
 
 
-    */
+
     /*Book a call page*/
 
     /* Make the form smaller*/
@@ -383,6 +382,10 @@ footer {
     }
 
     /*Main*/
+    #hero {
+        background-position: top center;
+    }
+
     /*Video section*/
 
     /*Make the iframe smaller*/
@@ -390,5 +393,12 @@ footer {
     #video {
         max-width: 70%;
         min-width: 70%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #hero {
+        height: 900px;
+
     }
 }
