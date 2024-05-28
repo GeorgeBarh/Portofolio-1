@@ -22,7 +22,7 @@ header {
     z-index: 2;
     width: 100%;
     box-shadow: 0 2px 2px black;
-    background-color: rgb(161, 234, 180);
+    background-color: rgb(247, 247, 247);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -61,7 +61,7 @@ a:hover {
 /*Navbar styles with dropdown toggle */
 
 nav {
-    background-color: rgb(161, 234, 180);
+    background-color: rgb(247, 247, 247);
     position: absolute;
     width: 100%;
     left: 0;
