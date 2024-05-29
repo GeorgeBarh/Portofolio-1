@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.2);
+    color:  rgb(21, 40, 0);
 }
 
 /*Header*/
@@ -33,7 +34,7 @@ header a {
     color: inherit;
 }
 
-#logo {
+#logo{
     font-family: "Anek Devanagari", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -96,7 +97,7 @@ main {
 }
 
 section {
-    padding: 1em 2em;
+    padding:1em 2em;
     background-color: rgb(202, 228, 209);
     ;
 }
@@ -144,7 +145,7 @@ section a {
 }
 
 
-#about-heading {
+.heading {
     text-align: center;
     font-size: 200%;
     font-family: "Anek Devanagari", sans-serif;
@@ -196,6 +197,7 @@ footer {
     padding: 20px 0;
     height: 40%;
     background-color: rgb(188, 237, 201);
+    box-shadow: 0px -2px 2px  black;
 }
 
 #social-networks {
@@ -216,6 +218,51 @@ footer {
     text-align: center;
     padding: 5px;
 }
+
+/*Categories page*/
+
+#categories {
+    height: 100vh;
+}
+
+#categories {
+    padding: ;
+}
+
+.introduction h2 {
+    font-family: "Anek Devanagari", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.introduction hr {
+    color: black;
+}
+
+.padding-top {
+    padding-top: 5px;
+}
+
+.introduction li {
+    padding:2px;
+}
+
+ .categories-list h3 {
+    text-transform: uppercase;
+    font-family: "Anek Devanagari", sans-serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
 
 
 /* Book a call page */
