@@ -280,24 +280,47 @@ span {
     margin-left: auto;
 }
 
+.image-container {
+    width:90%; 
+        height: 40em;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.image {
-max-width: 100%;
-height: auto;
-border-radius: 3px;
-}
+    .image {
+        flex-grow: 1;
+    }
 
-.introduction ul {
-    text-align: center;
-    padding: 10px 0;
-}
+    .categories-content {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
 
-.anchor-styling {
-    font-style: italic;
-    font-weight: bold;
-    font-size: 120%;
-    list-style-type: none;
-}
+    }
+
+
+    .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+    }
+
+    .introduction ul {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .anchor-styling {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 120%;
+        list-style-type: none;
+    }
+
+    #get-in-touch {
+        text-align: center;
+    }
 
 
 /* Book a call page */
@@ -415,8 +438,8 @@ input[type="checkbox"]:checked, input[type="radio"]:checked {
 }
 
 .submit-button {
-    background: transparent;
-    color: rgb(211, 230, 198);
+    background-color: rgb(211, 230, 198);
+    color: #044024;
     font-size: 130%;
     font-style: oblique;
     padding: 10px;
@@ -427,8 +450,9 @@ input[type="checkbox"]:checked, input[type="radio"]:checked {
 }
 
 .submit-button:active {
-    background-color: #044024;
-    width: 100%;
+background-color: #044024;
+  color: rgb(211, 230, 198);
+    width: 50%;
     height: 3em;
 }
 
@@ -492,7 +516,7 @@ input[type="checkbox"]:checked, input[type="radio"]:checked {
 
     #booking-form {
         width: 50%;
-margin-top: 30px;   
+        margin-top: 30px;   
  }
 
     /*Adjust the checkboxes */
@@ -517,32 +541,6 @@ margin-top: 30px;
     #hero {
         background-position: top center;
     }
-
-    /*Categories page*/
-
-
-    .image-container {
-    width:90%; 
-        height: 38em;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .image {
-        flex-grow: 1;
-    }
-
-    .categories-content {
-        width: 90%;
-        margin-right: auto;
-        margin-left: auto;
-
-    }
-
-    
-
-
 
     /*Video section*/
 
