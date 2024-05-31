@@ -166,6 +166,9 @@ footer {
 
 /*About us section*/
 
+
+
+
 #questions div {
     padding: 10px;
 }
@@ -230,7 +233,7 @@ span {
 #categories {
     height: 100%;
     background-color: rgba(86, 172, 106, 0.3);
-    ;
+    
 }
 
 
@@ -262,7 +265,7 @@ span {
 
 
 #categories p {
-    padding: 5px;
+    padding: 5px 0;
 }
 
 .introduction li {
@@ -277,26 +280,24 @@ span {
     margin-left: auto;
 }
 
+
 .image {
 max-width: 100%;
 height: auto;
 border-radius: 3px;
 }
 
+.introduction ul {
+    text-align: center;
+    padding: 10px 0;
+}
+
 .anchor-styling {
     font-style: italic;
     font-weight: bold;
     font-size: 120%;
+    list-style-type: none;
 }
-
-
-
-
-
-
-
-
-
 
 
 /* Book a call page */
@@ -439,13 +440,15 @@ border-radius: 3px;
 
 
 
+
     /*Book a call page*/
 
     /* Make the form smaller*/
 
     #booking-form {
         width: 50%;
-    }
+margin-top: 30px;   
+ }
 
     /*Adjust the checkboxes */
 
@@ -465,10 +468,36 @@ border-radius: 3px;
         font-size: 160%;
     }
 
-    /*Main*/
+    /*Home page*/
     #hero {
         background-position: top center;
     }
+
+    /*Categories page*/
+
+
+    .image-container {
+    width:90%; 
+        height: 38em;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .image {
+        flex-grow: 1;
+    }
+
+    .categories-content {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    
+
+
 
     /*Video section*/
 
@@ -478,6 +507,13 @@ border-radius: 3px;
         max-width: 70%;
         min-width: 70%;
     }
+
+    /*Categories page*/
+
+    .introduction h2 {
+        padding-top: 20px;
+    }
+
 }
 
 @media screen and (min-width:992px) {
