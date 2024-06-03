@@ -1,27 +1,77 @@
 # Well-Being
 
-Well-being is the website of non-profit organization that provides consulting services to people who are struggling with daily-life problems. Well-being consists of a team of psychologists, economists and healthcare experts with a purpose of identifing the problem of the interested people and set up a plan to make their life better. Their area of focus is based on the three basic pillars of well-being; Health, Social Connections and Financial Stability.
+## Introduction
+Well-being is the website of non-profit organization that provides psychotherapy, financial and healthcare services to people who are struggling with daily-life problems. 
+
+Well-being consists of a team of psychologists, economists and healthcare experts with a purpose of identifing the problem of the interested people and set up a plan to make their life better. Their area of focus is based on the three areas of expertise; Health, Social Connections and Financial Stability.
+
 
 ![Screenshot of Responsiveness](assets/images/readme/responsive-screenshot.png)
+
+# Table Of Contents
+
+# 1.Project Overview
+
+## 1.1 Project Objective
+
+- The main purpose of this website is to promote a non-profit psychotherapeutic organization.
+
+ - The main purpose of this organization is to encourage people who are struggling with their daily life problems to ask support from experienced professionals. 
+
+  - The user of the website has the opportunity to:
+
+      1. Get brief description of the people who work there. 
+      2. Learn more about the purpose, and the way the organization operates.
+      3. Read more information about the theoretical basis of this group.
+      4. Get in touch to request support.
+
+- The target audience is every person who is struggling with daily-life problems and would like to ask for phychological support.
+
+## 1.2. User stories
+
+### First time user 
+- I want to know about what the website is about.
+- I want to know more about the people of this organization.
+- I want to know what this organization offers.
+- I want to know how they provide their services.
+
+### Returning Users 
+
+- I want to know more about the way they operate.
+ - I want to know in more details in which areas they can provide support.
+- I want to know how I can get in touch.
+
+
+
+
+
 
 ## Features
 
 
 - __Header__ 
 
-    - The header is featured in both pages (index.html and contact.html) and includes the logo of the organisation/ website (WELL-BEING) to the left and the navigation bar to the right. It is responsive at all screen sizes.
+    - The header is featured in all pages (index.html, categories.html and contact.html) and includes the logo of the organisation/ website (WELL-BEING) to the left and the navigation bar to the right. It is responsive at all screen sizes.
 
-      - The *logo* (WELL-BEING) is an anchor link and links to the home page (index.html).
+      - The *logo* (WELL-BEING) is an anchor link and links to the About us page (index.html).
       - The *navigation bar* includes three anchor links. In mobile screens responds as a toggle button and in  tablet screens and above (>768 px) the anchor links are displayed side by side. 
+
+      ![screenshot of the header on mobile screens](assets/images/readme/header-screenshot-mobile.png)
+
+      ![Screenshot of the togggle button in the navigation bar(mobile screens only)](assets/images/readme/header-toggle-button.png)
+          
+    ![Screenshot of the header on screens > 768px](assets/images/readme/header-larger-screens.png)
        
-        1. 'Home' : When the user clicks it, links them to the *home page* (index.html).
-        2. 'About us' : When the user clicks it, links them to the *ABOUT US* section of the home page.
-        3. 'Book a call : When the user clicks it, links to the *contact form* (contact.html).
+        
+        
+   1. 'About us' : When the user clicks it, links them to the *home page* (index.html).
+   2. 'Categories' : When the user clicks it, links them to the *categories page* (categories.html).
+   3. 'Book a call : When the user clicks it, links to the *contact form* (contact.html).
 
     - This section allows to the user to easily navigate through the website without having to revert back to the previous page.
 
-    ![screenshot of the header on mobile screens](assets/images/readme/nav-bar-small.png)
-    ![Screenshot of the header on screens > 768px](assets/images/readme/nav-bar-big.png)
+
+
 - Hero Image
 
    - The hero section contains a background image with a cover text of a quote, relevant with the concept of the  website.
@@ -60,24 +110,24 @@ Well-being is the website of non-profit organization that provides consulting se
 - Book a call page
 
   - The Book a call page is a form with input fields where the user is encourages to fill in his contact details.
-  The contact is simple and requires first name, last name, phone number and email adress.  
+  The contact is simple and requires first name, last name, phone number and email address.  
    - The second part of the page contains a check button and a radio button and gives the opportunity to the user to provide day and time availability for the first call.
 
-   -The point of such a simple structure is the user to be encouraged to sumbit the form by providing name, address and by clicking two buttons. The phone number and the *Areas you want to improve* is not a required field. 
+   -The point of such a simple page structure is the user to be encouraged to sumbit the form by providing name, address just by clicking two buttons. The phone number and the *Areas you want to improve* is not a required field. 
 
    ![Screenshot of the contact details part of the form.](assets/images/readme/form1-screenshot.png)
    ![Screenshot of the availability part of the form](assets/images/readme/form2-input.png)
 
    ## Testing
 
-   I have tested the responsiveness of the website in Google Chrome, Microsoft Edge, and Mozilla Firefox and every works as it should.
+   I have tested the responsiveness of the website in Google Chrome, Microsoft Edge, and Mozilla Firefox and every thing works as it should.
 
 - Header 
     - The *logo* (WELL-BEING) is an anchor link and links to the home page (index.html).
     - The *navigation bar* includes three anchor links. In mobile screens responds as a toggle button and in  tablet screens and above (>768 px) the anchor links are displayed side by side. 
        
-        1. 'Home' : When the user clicks it, links them to the *home page* (index.html).
-        2. 'About us' : When the user clicks it, links them to the *ABOUT US* section of the home page.
+      1. 'About us' : When the user clicks it, links them to the *home page* (index.html).
+        2. 'Categories' : When the user clicks it, links them to the *categories page* (categories.html).
         3. 'Book a call : When the user clicks it, links to the *contact form* (contact.html).
 
 - Footer 

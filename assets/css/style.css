@@ -142,7 +142,7 @@ footer {
 
 #hero {
     height: 85vh;
-    background: url(../images/hero.jpg) top / cover no-repeat;
+    background: url(../images/hero.webp) top / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -167,8 +167,14 @@ footer {
 /*About us section*/
 
 
+#intro {
+    padding-right: 15px;
+    padding-left:15px;
+}
 
-
+#about>hr {
+    margin-bottom: 10px;
+}
 #questions div {
     padding: 10px;
 }
@@ -498,6 +504,11 @@ background-color: #044024;
     }
 
     /*about us section*/
+#intro {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
 
     #questions {
         width: 70%;
@@ -563,5 +574,11 @@ background-color: #044024;
     #hero {
         height: 900px;
 
+    }
+}
+
+@media screen and (min-width:2560px) {
+    #intro {
+margin-left: 500px;
     }
 }
