@@ -83,12 +83,11 @@ The website includes three pages.
 
 ## 2.1 Header, Footer, Favicon
 The header,the footer and the favicon are featured in all the pages (index.html, categories.html and contact.html) in order to ensure consistency throughout the whole website. 
-- __Header__
+ ### __Header__
 
-    - The header includes the logo of the organisation/ website (WELL-BEING) to the left and the navigation bar to the right. It is responsive at all screen sizes.
-
-      - The *logo* (WELL-BEING) is an anchor link and links to the About us page (index.html).
-      - The *navigation bar* includes three anchor links. In mobile screens responds as a toggle button and in  tablet screens and above (>768 px) the anchor links are displayed side by side. 
+ The header includes the logo of the organisation/ website (WELL-BEING) to the left and the navigation bar to the right. It is responsive at all screen sizes.
+ - The *logo* (WELL-BEING) is an anchor link and links to the About us page (index.html).
+  - The *navigation bar* includes three anchor links. In mobile screens responds as a toggle button and in  tablet screens and above (>768 px) the anchor links are displayed side by side. 
 
       ![screenshot of the header on mobile screens](assets/images/readme/header-screenshot-mobile.png)
 
@@ -98,14 +97,14 @@ The header,the footer and the favicon are featured in all the pages (index.html,
        
         
         
-   1. [About us](https://georgebarh.github.io/well-being-Portofolio-1/) : When the user clicks it, links them to the *home page* (index.html).
-   2. [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html) : When the user clicks it, links them to the *categories page* (categories.html).
-   3. [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) : When the user clicks it, links to the *contact form* (contact.html).
+   1. [About us](https://georgebarh.github.io/well-being-Portofolio-1/) : When the user clicks it, links them to the *About us* (index.html).
+   2. [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html) : When the user clicks it, links them to the *Categories page* (categories.html).
+   3. [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) : When the user clicks it, links to the *Book a call page* (contact.html).
 
 
     - This section allows to the user to easily navigate through the website without having to revert back to the previous page.
 
-    __Footer__
+   ###  __Footer__
 
    - The footer section includes links to the relevant social media sites for Well-being.The links will open in a new tab so as to prevent the user leaves the website. We used font icons for a better user experience.
    - A potential visit to our social media pages means higher interest from the user and increases the credibility of *Well-Being*.
@@ -113,7 +112,7 @@ The header,the footer and the favicon are featured in all the pages (index.html,
 
    ![Screenshot of the footer](assets/images/readme/footer-screenshot.png)
 
-   __Favicon__
+  ###  __Favicon__
 
    - The favicon is a healthy heart to the left of the title of the page and is choosen according the contect of the website.
 
@@ -121,14 +120,14 @@ The header,the footer and the favicon are featured in all the pages (index.html,
 
 ## [2.2 About us page](https://georgebarh.github.io/well-being-Portofolio-1/)
 
- __Hero Image__
+###  __Hero Image__
 
    - The hero section contains a background image with a cover text of a quote, relevant with the concept of the  website.
    - The background image draws the attention of the user and the, *A problem properly stated is half solved*, statement encourages the user to read more about the organization in order to find directions how to solve his problem.  
 
    ![Screenshot of the hero image](assets/images/readme/hero-screenshot.png)
 
-__About us__
+### __About us__
   - The *About us* section is a short brief of the organization. It contains three boxes and each of them includes a question and its answer. Τhe purpose of this structure is for the user to see in front of him what he is already wondering about the organization.  
   
      1. Who these people are: The user have the opportunity to evaluate the educational background of the people with such a difficult work of improving their life.
@@ -151,7 +150,7 @@ __About us__
       
 
 
-__Video section__ 
+### __Video section__ 
 
    This section contains a short description about the video that follows in the page and the Youtube video of a TED talk.
   - Gives the option to the user to be more familiar with the well-being concept by watching a TED talk from the director of the organization.
@@ -167,99 +166,192 @@ The categories page constitutes the theoritical basis of the organization. More 
 
 This page gives the user the oppurtunity to check how the organization operates, where they base their buisness plan and in which areas of their life they can provide guidance to them. 
 
-__Introduction__
+### __Introduction__
 
 This section contains the title *The Three pillars of Well-Being*, a nav bar which the user can user so as to navigate through the three sections of the page *(Health, Social Connections and Financial Stability)* and a paragraph that describes the rest of the page's context and encourages the user to read more.
 
 ![Screenshot of Well-being's director, giving a talk in TEDxLSE](assets/images/readme/categories-intro.png)
 
+That anchor links give the chance to the user (mostly to the mobile user) not to scroll down and provides interactivity so as to make the website more user friendly.
+
+
 - Each section contains a heading, an image, relevant to the concept of the section,so as to draw the attention of the user and three sub-categories of each pillar.
 
-- Each section has box shadow around them so as to make it look as a seperate card and improve the user experience.
+- Each section has box shadow around them so as to make it look as a seperate card and improve the user experience and the look of the website.
 
-__Health__
+- The purpose of this design is to get the attention of user and  provide them further information about the areas of life that can get support from the Well-Being team without make the context long and tiring.
 
-The next section has to with the first pillar of Well-Being, *Health*. This sections contains the heading, an image of a girl doing exercise in the nature and below the image the three sub-categories of Health with a brief descpription.
+### __Health__
+
+The next section has to do with the first pillar of Well-Being, *Health*. This section contains the heading, an image of a girl doing exercise in the nature and below the image the three sub-categories of Health with a brief descpription.
 
   1. Physical Health
   2. Mental Health
   3. Overal Wellness
 
+![Screenshot of Health Section](assets\images\readme\health.png)
 
 
-__Social Connections__
+### __Social Connections__
+
+The second pillar of Well-Being is *Social Connections*. This section contains the heading, an image of a group of people relaxing in a living room and below the image the three sub-categories of Social Connections with a brief descpription.
+
+  1. Relationships
+  2. Community Engagement
+  3. Social Support
+
+![Screenshot of Social Connections Section](assets\images\readme\social.png)
 
 
-__Financial Stability__
+### __Financial Stability__
 
+The third pillar of Well-Being is *Financial Stability*. This section contains the heading, an image of a table with money, a calculator and a notebook on it and below the image the three sub-categories of Financial Stability with a brief descpription.
 
+  1. Income and Employment
+  2. Saving and Investments
+  3. Debt Management
 
+![Screenshot of Financial Stability Section](assets\images\readme\financial.png)
+
+- At the bottom of the page there is an anchor that encourages the user to do the next step and book a call with members of the Well-Being team.
+
+ At the bottom of the Categories page the is another anchor link that encourages the user to do the next step after he read the context of this page.
+  The next step would be the user to book a call with the Well-being team and he has the option right there after he finished the reading of this page.
+
+ ![Screenshot of the bottom of the categories page](assets\images\readme\click-here-screenshot.png)
+ 
 
 
 
 ## [2.3 Book a call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) 
 
-  - The Book a call page is a form with input fields where the user is encourages to fill in his contact details.
-  The contact is simple and requires first name, last name, phone number and email address.  
+  - The Book a call page is a form with input fields where the user can submit their contact details so as to get in touch with the Well-Being team.
+  The required steps are simple and only needs a first name, a last name, a phone number and email address.  
    - The second part of the page contains a check button and a radio button and gives the opportunity to the user to provide day and time availability for the first call.
 
-   -The point of such a simple page structure is the user to be encouraged to sumbit the form by providing name, address just by clicking two buttons. The phone number and the *Areas you want to improve* is not a required field. 
+   -The point of such a simple page structure is the user to be encouraged to sumbit the form without having to submit a lot of details. The phone number and the *Areas you want to improve* is not a required field. 
 
-   ![Screenshot of the contact details part of the form.](assets/images/readme/form1-screenshot.png)
-   ![Screenshot of the availability part of the form](assets/images/readme/form2-input.png)
+   ![Screenshot of the contact details part of the form.](assets/images/readme/book-a-call-1.png)
+   ![Screenshot of the availability part of the form](assets/images/readme/book-a-call-2.png)
 
-   ## Testing
+   # 3. Testing
 
+
+## 3.1 Manual Testing
    I have tested the responsiveness of the website in Google Chrome, Microsoft Edge, and Mozilla Firefox and every thing works as it should.
 
-- Header 
-    - The *logo* (WELL-BEING) is an anchor link and links to the home page (index.html).
-    - The *navigation bar* includes three anchor links. In mobile screens responds as a toggle button and in  tablet screens and above (>768 px) the anchor links are displayed side by side. 
+ ##  Header, Footer
+### Header 
+  - The *logo* (WELL-BEING) is an anchor link and links to the  [About us](https://georgebarh.github.io/well-being-Portofolio-1/) page.
+  - The *navigation bar* includes three anchor links. In mobile screens responds as a toggle button and in  tablet screens and above (>768 px) the anchor links are displayed side by side. 
        
-      1. 'About us' : When the user clicks it, links them to the *home page* (index.html).
-        2. 'Categories' : When the user clicks it, links them to the *categories page* (categories.html).
-        3. 'Book a call : When the user clicks it, links to the *contact form* (contact.html).
+    1. [About us](https://georgebarh.github.io/well-being-Portofolio-1/) : When the user clicks it, links them to the *About us* (index.html).
+    2. [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html) : When the user clicks it, links them to the *Categories page* (categories.html).
+    3. [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) : When the user clicks it, links to the *Book a call page* (contact.html).
 
 - Footer 
   - The footer contains three font awesome icons that each of them links the user to the corresponding social media page. The pages are opening in a new tab in order the user not leave the home page.
 
-- Book a call page 
+  ## [About us Page](https://georgebarh.github.io/well-being-Portofolio-1/index.html#about)
+
+   Except of the navbar in the header, the *About us* page has two anchor links that encourages the user to navigate to the other two pages of the website. Both elements are tested and working as they should.
+
+     1. At the *WHAT WE DO* section the user has the option to click the *Read more* anchor and link to the [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html).
+
+     ![Screenshot of Read more anchor link](assets/images/readme/read-more-screenshot.png)
+
+     2. At the end of the *HOW WE DO IT* section the user has the option to click the *book your call* anchor which links to the [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html)
+
+     ![Screenshot of book your call anchor link](assets\images\readme\book-your-call-anchor-screenshot.png)
+
+     ## [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html)
+
+ - At the top of the page, in the center of introduction div there is a navbar that gives the option to the user to click them and navigate to the sections of the Categories Page.
+
+ The purpose of navigation bar at the top of the page is the user to be able to choose the area that he wants to learn more about without having to scroll down the page to find what he is more interested in.
+
+   1. *The Health* anchor links to the [Health section](https://georgebarh.github.io/well-being-Portofolio-1/categories.html#health) of the Categories Page.
+   2. The *Social Connections* anchor links to the [Social section](https://georgebarh.github.io/well-being-Portofolio-1/categories.html#social) of the Categories Page.
+   3. The *Financial Stability* anchor links to the [Finance section](https://georgebarh.github.io/well-being-Portofolio-1/categories.html#finance) of the Categories Page.
+
+  ![Screenshot of the nav bar in the Categories Page](assets\images\readme\nav-bar-categories.png)
+
+   - Below the navigation bar there is a paragraph that describes that follows in the page. In this paragraph the anchor *Read below* that when the user clicks it navigates them to the [Health section](https://georgebarh.github.io/well-being-Portofolio-1/categories.html#health) of the Categories Page so as to start read more details.
+
+   ![Screenshot of the Read Below anchor link in the Categories Page](assets\images\readme\read-below.png)
+
+  
+  That anchor links give the chance to the user (mostly to the mobile user) not to scroll down and provides interactivity so as to make the website more user friendly.
+
+  - At the bottom of the Categories page there is another anchor link that encourages the user to book a call with the Well-being team. Once the user clicks the anchor link will be navigated to the [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) which opens in another tab so as not to force the user to leave the Categories page.
+
+   ![Screenshot of the Click Here anchor link at the bottom of the Categories Page](assets\images\readme\click-here.png)
+
+
+
+  ## [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html)
   - The form contains eight input fields that the user has to fill in in order to be able to sumbit the form. Only the six of the them are required. 
       1. The *Phone Number* is a non required field because a lot of users are hesitating to provide such a sensitive information and it is possible not to sumbit the form for that reason.
-      2. The *Areas you want to improve* field is a non required because is working as an indication for the Well-Being team and gives the user a sense of control about the upcoming appointment
+      2. The *Areas you want to improve* field is a non required because is working as an indication for the Well-Being team and gives the user a sense of control about the upcoming appointment.
 
-- Bugs 
+      ![Screenshot of the form with the required fields filled in](assets\images\readme\form-test-1.png)
+      ![Screenshot of the form with the required fields filled in](assets\images\readme\form-test-2.png)
+
+ ## 3.2 Bugs 
+
 
  1. In the *Book a call* page the *about us* anchor link of the navigation bar could not link to the proper element.
  ![Screenshot of the above bug](assets/images/readme/about-us-bug.png)
+
   After research in the Stack Overflow I realised that I had to write the following.
+
   ![Screenshot of the above solution](assets/images/readme/about-us-solution.png)
 
- 2. After the lighthouse overview in the Chrome DevTools I realised that the performance of website was very poor because of delay to load the background images. 
+  ### __Lighthouse - Performance__
+ 
+  After the lighthouse overview in the Chrome DevTools I realised that the performance of website was very poor because of delay to load the background images. 
     - Based on the DevTools instructions I preloaded both of the background images in the head element.
-    ![Screenshot of the hero image preload](assets/images/readme/preload-hero.png)
-    ![Screenshot of the booking image preload](assets/images/readme/preload-booking.png)
 
-    3. In order to further improve the performance of the website I converted the  background images from .jpg to webp after the instruction of the Chrome DevTools.
+  ![Screenshot of the hero image preload](assets/images/readme/preload-hero.png)
 
-    
+  ![Screenshot of the booking image preload](assets/images/readme/preload-booking.png)
 
-    - Validator Testing 
-      1. HTML
-         - No errors or warnings to show in [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html#textarea)
-      2.  CSS 
-          - Erros according to [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) : 
+   In order to further improve the performance of the website I converted the  background images from .jpg to webp after the instruction of the Chrome DevTools.
 
-          ![CSS Validator errors](assets/images/readme/css-errors.png)
-          ![CSS css file errors](assets/images/readme/css-errors-screenshot.png)
+   ### __Lighthouse - Accessibility__
+  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighhouse in DevTools.
 
-          Solution : delete this part of the code as it was not absolutely necessery.
-        3. Accessibility
-           - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighhouse in DevTools.
+  ![Screenshot of Lighthouse score](assets/images/readme/lighthouse.png)
 
-           ![Screenshot of Lighthouse score](assets/images/readme/lighthouse.png)
 
-  ## Deployment
+
+  
+ ### __Validator Testing__ 
+
+  1. HTML
+         
+  - [About us](https://georgebarh.github.io/well-being-Portofolio-1/) : No errors or warnings to show in [W3C validator](https://validator.w3.org/nu/).
+
+  - [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html) : No errors or warnings to show in [W3C validator](https://validator.w3.org/nu/).
+
+  - [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) : 1 errors showed in [W3C validator](https://validator.w3.org/nu/).
+
+  ![Screenshot of the error in Book a Call page](assets\images\readme\book-a-call-validator.png)
+
+  Solution :
+  
+   ![Screenshot of the fixed code](assets\images\readme\fixed-h2.png)
+
+  2.  CSS - Erros according to [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) : 
+
+   ![CSS Validator errors](assets/images/readme/css-errors.png)
+
+  ![CSS css file errors](assets/images/readme/css-errors-screenshot.png)
+
+  Solution : deleted this part of the code as it was not necessery.
+
+
+  # 4. Deployment
     
  - The site is deployed to GitHub pages.
       1. In the GitHub Repository, I went ot the Settings tab.
@@ -268,17 +360,29 @@ __Financial Stability__
 
       The live link can be found here [Well-Being Project](-https://georgebarh.github.io/well-being-Portofolio-1/).
 
- ## Credits
+      ## 4.1 Technical Issue
+
+  - The images in the categories page during the Live Preview seemed to work properly without any deformation.
+
+  ![Screenshot of the images during production](assets\images\readme\image-in-live-preview.png)
+
+  - Once I deployed the project the images were streched
+  
+  ![Screenshot of the images after deployment](assets\images\readme\image-in-deployment.png)
+
+ - __Solution__ : In order to fix the bug I did the following changes in the CSS code. ![Screenshot of the code after I fixed the streched images](assets\images\readme\image-deployment-fix.png)
+
+ # 5. Credits
 
   - Content
-     - Instructions about the whole structure of the project were taken from the CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) project.
+     - Instructions about the whole structure of the project were taken from the CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) project and the videos from the first module.
 
      - The navigation toggle bar code was taken from the CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) project.
 
   The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
   - Media
-    - Both the background images was taken from [Pexels](https://www.pexels.com/search/free/).
+    - The images was taken from [Pexels](https://www.pexels.com/search/free/).
 
           
 
