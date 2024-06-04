@@ -97,7 +97,7 @@ main {
 }
 
 section {
-    padding:1em 2em;
+    padding:1em 1em;
     background-color: rgba(86, 172, 106, 0.3);
     ;
 }
@@ -236,6 +236,15 @@ span {
 
 /*Categories page*/
 
+.categories-heading {
+
+    text-align: center;
+    font-size: 150%;
+    letter-spacing: 0.5px;
+    line-height:30px ;
+
+}
+
 #categories {
     height: 100%;
     background-color: rgba(86, 172, 106, 0.3);
@@ -255,6 +264,18 @@ span {
     padding-bottom: 10px;
 }
 
+.image-container {
+    width:90%; 
+     height: 300px;
+     display: flex;
+     margin-left: auto;
+     margin-right: auto; 
+}
+
+.image {
+ flex-grow: 1;
+}
+
 #health {
     box-shadow:5px -5px 10px 3px  rgb(139, 169, 125) ;
 }
@@ -267,7 +288,6 @@ span {
 #finance {
     box-shadow:5px -5px 10px 3px rgb(139, 169, 125);
 }
-
 
 
 #categories p {
@@ -286,17 +306,6 @@ span {
     margin-left: auto;
 }
 
-.image-container {
-    width:90%; 
-        height: 40em;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .image {
-        flex-grow: 1;
-    }
 
     .categories-content {
         width: 90%;
@@ -518,9 +527,24 @@ background-color: #044024;
         flex-direction: column;
     }
 
+    /*Categories page*/
 
+.categories-heading {
+    margin-top: 25px;
+}
 
+    /*Adjust the images to the right size*/
+.image-container {
+       width:90%; 
+        height: 90vh;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto; 
+}
 
+.image {
+    flex-grow: 1;
+}
     /*Book a call page*/
 
     /* Make the form smaller*/

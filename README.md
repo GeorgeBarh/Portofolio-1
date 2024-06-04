@@ -27,7 +27,7 @@ Well-being consists of a team of psychologists, economists and healthcare expert
 
 - The target audience is every person who is struggling with daily-life problems and would like to ask for phychological support.
 
-## 1.2. User stories
+## 1.2 User stories
 
 ### First time user 
 - I want to know about what the website is about.
@@ -42,16 +42,50 @@ Well-being consists of a team of psychologists, economists and healthcare expert
 - I want to know how I can get in touch.
 
 
+### Site owner
+
+- I want to promote the activity of the organization. 
+- I want to provide information about the importance of the well-being.
+- I want to encourage the users to take action in order to improve their life. 
+- I want to get in touch with the organization.
+
+
+# 1.3 Design
+??
+<!-- ## Home Page
+ - The website was desgined to provide the main information of the organization in the Home page. The point is the context of the page to be short and accurate so as to keep the user's interest without being tiring. 
+
+   The hero image with the quote, *A problem properly stated is half solved*, is the first element the user sees. It draws the attention of the user and makes them want to learn more about the website. The next section serves this exact purpose.
+
+   It contains the heading *About us* and the three boxes  which are providing further information about the organization; Who are these people, what is their job and how they do it. The boxes appear in a column so that the user is encouraged to scroll down to the rest of page. 
+
+   The point of this minimalistic design is to the user to have a clear idea about the concept of  Well-being (as an organization) in the first moment, 
+   and do not overload them with extra informations. 
+
+   The next sector contains a Youtube video of a Ted talk by the director of Well-Being. The fact that the director of the organization speaks in a well-known event like TED talks provides credibility to the organization and the website itself. 
+
+   At the bottom of the page the website includes the footer with three font awesome icons that links to the social media pages of the organization.
+
+   ## Categories Page
+   - The next page includes more information about the theoretical foundation on which the organization's operation is based. At the top  -->
 
 
 
 
-## Features
 
 
-- __Header__ 
+# 2. Features
 
-    - The header is featured in all pages (index.html, categories.html and contact.html) and includes the logo of the organisation/ website (WELL-BEING) to the left and the navigation bar to the right. It is responsive at all screen sizes.
+The website includes three pages. 
+1. The [Home page](https://georgebarh.github.io/well-being-Portofolio-1/) that contains information about the organization. 
+2. The [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html) that provides further information about the philosophy of the organization and the way they provide their services.
+3. The [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) that gives the opportunity to the user to sumbit a short form and request an introductury call with the team.
+
+## 2.1 Header, Footer, Favicon
+The header,the footer and the favicon are featured in all the pages (index.html, categories.html and contact.html) in order to ensure consistency throughout the whole website. 
+- __Header__
+
+    - The header includes the logo of the organisation/ website (WELL-BEING) to the left and the navigation bar to the right. It is responsive at all screen sizes.
 
       - The *logo* (WELL-BEING) is an anchor link and links to the About us page (index.html).
       - The *navigation bar* includes three anchor links. In mobile screens responds as a toggle button and in  tablet screens and above (>768 px) the anchor links are displayed side by side. 
@@ -64,50 +98,106 @@ Well-being consists of a team of psychologists, economists and healthcare expert
        
         
         
-   1. 'About us' : When the user clicks it, links them to the *home page* (index.html).
-   2. 'Categories' : When the user clicks it, links them to the *categories page* (categories.html).
-   3. 'Book a call : When the user clicks it, links to the *contact form* (contact.html).
+   1. [About us](https://georgebarh.github.io/well-being-Portofolio-1/) : When the user clicks it, links them to the *home page* (index.html).
+   2. [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html) : When the user clicks it, links them to the *categories page* (categories.html).
+   3. [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) : When the user clicks it, links to the *contact form* (contact.html).
+
 
     - This section allows to the user to easily navigate through the website without having to revert back to the previous page.
 
-
-
-- Hero Image
-
-   - The hero section contains a background image with a cover text of a quote, relevant with the concept of the  website.
-   - The background image draws the attention of the user and the *A problem properly stated is half solved* statement gives the user the urge to read more about the organization in order to find directions how to solve his problem.  
-
-   ![Screenshot of the hero image](assets/images/readme/hero-screenshot.png)
-
-- About us
-  - The *About us* section is a short brief of the organization.
-  
-     1. The user have the opportunity to evaluate the educational background of the people with such a difficult work of improving their life.
-
-     2. The user is able to clearly identify what this organization does without being too complicated for them.
-
-      3. The user see how the organization's concept works, when he can be in touch with them and what happens after the introductory contact.
-
-  - The point of this section is to briefly describe the people, the purpose and operation process with a very simple way that encourages the user to request a contact call by using the *Book a call* contact form.
-
-  ![Screenshot of ABOUT US  section](assets/images/readme/about-us-screenshot.png)
-
-- Video section 
-
-   - This section gives the option to the user to get in touch with the well-being concept by watching a ted speech from the director of the organization.
-   - The reference of the director in a Ted Talk provides credibility to the organization.
-   - The Youtube video makes it more familiar for them and increases the chances of watching the talk and eventually spend more time in the website.
-
-   ![Screenshot of Well-being's director, giving a talk in TEDxLSE](assets/images/readme/video-screenshot.png)
-
-- Footer section
+    __Footer__
 
    - The footer section includes links to the relevant social media sites for Well-being.The links will open in a new tab so as to prevent the user leaves the website. We used font icons for a better user experience.
    - A potential visit to our social media pages means higher interest from the user and increases the credibility of *Well-Being*.
+   - It also contains the copyrights of the developer.
 
    ![Screenshot of the footer](assets/images/readme/footer-screenshot.png)
 
-- Book a call page
+   __Favicon__
+
+   - The favicon is a healthy heart to the left of the title of the page and is choosen according the contect of the website.
+
+   ![Screenshot of the favicon](assets/images/readme/favicon.png)
+
+## [2.2 About us page](https://georgebarh.github.io/well-being-Portofolio-1/)
+
+ __Hero Image__
+
+   - The hero section contains a background image with a cover text of a quote, relevant with the concept of the  website.
+   - The background image draws the attention of the user and the, *A problem properly stated is half solved*, statement encourages the user to read more about the organization in order to find directions how to solve his problem.  
+
+   ![Screenshot of the hero image](assets/images/readme/hero-screenshot.png)
+
+__About us__
+  - The *About us* section is a short brief of the organization. It contains three boxes and each of them includes a question and its answer. Τhe purpose of this structure is for the user to see in front of him what he is already wondering about the organization.  
+  
+     1. Who these people are: The user have the opportunity to evaluate the educational background of the people with such a difficult work of improving their life.
+
+      ![Screenshot of WHO ARE WE? section](assets/images/readme/who.png)
+
+
+     2. What exactly they do: The user is able to clearly identify what the organization does without being too complicated for them.
+
+    ![Screenshot of WHAT WE DO? section](assets/images/readme/what.png)
+
+
+      3. How they do it The user see how the organization's concept works, when he can be in touch with them and what happens after the introductory contact.
+
+      ![Screenshot of HOW WE DO IT? section](assets/images/readme/how-screenshot.png)
+
+
+  - Below each question is a brief paragraph that answers the question without giving extra information. The point of this section is to briefly describe the people, the purpose and operation process with a very simple way that encourages the user to request a contact call by using the *Book a call* contact form.
+
+      
+
+
+__Video section__ 
+
+   This section contains a short description about the video that follows in the page and the Youtube video of a TED talk.
+  - Gives the option to the user to be more familiar with the well-being concept by watching a TED talk from the director of the organization.
+   - The presence of the director in a Ted Talk provides credibility to the organization.
+   - The Youtube video makes it more familiar for the user and increases the chances of watching the talk and eventually spend more time in the website.
+
+   ![Screenshot of Well-being's director, giving a talk in TEDxLSE](assets/images/readme/video-sreenshot.png)
+
+
+## [2.2 Categories Page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html) 
+
+The categories page constitutes the theoritical basis of the organization. More specifically, the concept of the Well-Being is based on the Three Pillars of Well-Being; Health,Social Connections and Financial Stability. 
+
+This page gives the user the oppurtunity to check how the organization operates, where they base their buisness plan and in which areas of their life they can provide guidance to them. 
+
+__Introduction__
+
+This section contains the title *The Three pillars of Well-Being*, a nav bar which the user can user so as to navigate through the three sections of the page *(Health, Social Connections and Financial Stability)* and a paragraph that describes the rest of the page's context and encourages the user to read more.
+
+![Screenshot of Well-being's director, giving a talk in TEDxLSE](assets/images/readme/categories-intro.png)
+
+- Each section contains a heading, an image, relevant to the concept of the section,so as to draw the attention of the user and three sub-categories of each pillar.
+
+- Each section has box shadow around them so as to make it look as a seperate card and improve the user experience.
+
+__Health__
+
+The next section has to with the first pillar of Well-Being, *Health*. This sections contains the heading, an image of a girl doing exercise in the nature and below the image the three sub-categories of Health with a brief descpription.
+
+  1. Physical Health
+  2. Mental Health
+  3. Overal Wellness
+
+
+
+__Social Connections__
+
+
+__Financial Stability__
+
+
+
+
+
+
+## [2.3 Book a call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) 
 
   - The Book a call page is a form with input fields where the user is encourages to fill in his contact details.
   The contact is simple and requires first name, last name, phone number and email address.  
