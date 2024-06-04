@@ -577,16 +577,24 @@ background-color: #044024;
     /*Home page*/
     #hero {
         background-position: top center;
+        height: 900px;
     }
 
     /*Video section*/
 
+    /*Increase the height of the video frame*/
+    #video-wrapper {
+        height: 600px;
+    }
+
     /*Make the iframe smaller*/
 
+
     #video {
-        max-width: 70%;
-        min-width: 70%;
+        max-width: 80%;
+        min-width: 80%;
     }
+
 
     /*Categories page*/
 
@@ -596,12 +604,19 @@ background-color: #044024;
 
 }
 
-@media screen and (min-width:992px) {
-    #hero {
-        height: 900px;
 
-    }
+
+@media screen and (min-width:1440px) {
+
+     /*Increase the height of the video*/
+
+
+ #video-wrapper {
+    height: 800px;
 }
+   
+}
+
 
 @media screen and (min-width:2560px) {
     #intro {
