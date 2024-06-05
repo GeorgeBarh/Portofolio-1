@@ -6,9 +6,33 @@ Well-being is the website of non-profit organization that provides psychotherapy
 Well-being consists of a team of psychologists, economists and healthcare experts with a purpose of identifing the problem of the interested people and set up a plan to make their life better. Their area of focus is based on the three areas of expertise; Health, Social Connections and Financial Stability.
 
 
-![Screenshot of Responsiveness](assets/images/readme/responsive-screenshot.png)
+![Screenshot of Responsiveness](assets/images/readme/am-i-responsive.png)
+
 
 # Table Of Contents
+
+1. [Project Overview](#project-overview)
+    - [Project Objective](#project-objective)
+    - [User Stories](#user-stories)
+    - [Design](#design)
+2. [Features](#features)
+    - [Header, Footer, Favicon](#header-footer-favicon)
+    - [About Us Page](#about-us-page)
+    - [Categories Page](#categories-page)
+    - [Book a Call Page](#book-a-call-page)
+3. [Testing](#testing)
+    - [Manual Testing](#manual-testing)
+    - [Bugs](#bugs)
+    - [Lighthouse - Performance](#lighthouse-performance)
+    - [Lighthouse - Accessibility](#lighthouse-accessibility)
+    - [Validator Testing](#validator-testing)
+4. [Deployment](#deployment)
+    - [Technical Issue](#technical-issue)
+5. [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+
+
 
 # 1.Project Overview
 
@@ -51,24 +75,21 @@ Well-being consists of a team of psychologists, economists and healthcare expert
 
 
 # 1.3 Design
-??
-<!-- ## Home Page
- - The website was desgined to provide the main information of the organization in the Home page. The point is the context of the page to be short and accurate so as to keep the user's interest without being tiring. 
 
-   The hero image with the quote, *A problem properly stated is half solved*, is the first element the user sees. It draws the attention of the user and makes them want to learn more about the website. The next section serves this exact purpose.
 
-   It contains the heading *About us* and the three boxes  which are providing further information about the organization; Who are these people, what is their job and how they do it. The boxes appear in a column so that the user is encouraged to scroll down to the rest of page. 
+ - The website was designed to provide only the necessery information about the organization. If the users want to learn more about the organization and ask suppoort they are encouraged through the website to get in touch by sumbitting the form, which is and the final goal of the website. The point is the context of the pages to be short and accurate so as to keep the user's interest without being tiring. 
 
-   The point of this minimalistic design is to the user to have a clear idea about the concept of  Well-being (as an organization) in the first moment, 
-   and do not overload them with extra informations. 
+   In order to fullfill this purpose, a simple minimalistic design was necessary. To draw the attention of the user I used images relevant to the context of each section. The user can find relevant information about the organization and their way to operate by scrolling down the page or following the navigation links provided in the header.
 
-   The next sector contains a Youtube video of a Ted talk by the director of Well-Being. The fact that the director of the organization speaks in a well-known event like TED talks provides credibility to the organization and the website itself. 
+ - Semantic markup was used to ensure a well structured page.
 
-   At the bottom of the page the website includes the footer with three font awesome icons that links to the social media pages of the organization.
+ - The colour of the page is light green in order to convey happy feelings and it was choosen to match the concept of well- being. The header and the footer has a slightly lighter green color. The point of the different colour betwwen the footer, header and main body is the user to be able to identify the different sectors but at the same time not to create a strong contrast between them. 
 
-   ## Categories Page
-   - The next page includes more information about the theoretical foundation on which the organization's operation is based. At the top  -->
+   The colour of the the body is a dark green in order to create strong contrast between the background colour and be easily readable. At the same time all the colours of the website match together.
 
+-  Media Queries were used to allow for the layout to adapt to all screen sizes maintaining the structural integrity of the website.
+
+-  I used Flexbox in order to display the elements of the page in a column. With that way the user easily read the sections just by scrolling down through the page both on mobile screens and on desktop computers.
 
 
 
@@ -374,15 +395,19 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
 
  # 5. Credits
 
-  - Content
-     - Instructions about the whole structure of the project were taken from the CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) project and the videos from the first module.
+  ## 5.1 Content
+  - Instructions about the whole structure of the project were taken from the CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) project and the videos from the first module.
 
-     - The navigation toggle bar code was taken from the CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) project.
+  - The navigation toggle bar code was taken from the CI [Love Running](https://github.com/Code-Institute-Org/love-running-2.0) project.
 
-  The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+  - The context of the Categories page was taken from [ChatGPT](https://chatgpt.com/).
 
-  - Media
-    - The images was taken from [Pexels](https://www.pexels.com/search/free/).
+  -  The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+  ## 5.2 Media
+  - The images were taken from [Pexels](https://www.pexels.com/search/free/).
+  
+  - The screenshot of the README.md file for testing the responsiveness in all screens was taken from the [Am I Responsive](https://ui.dev/amiresponsive) website.
 
           
 
