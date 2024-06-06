@@ -569,31 +569,33 @@ background-color: #044024;
     /*Header*/
 
     /*Change the size in the quote so as to be bigger*/
+
     .quote {
         font-size: 160%;
     }
 
     /*Home page*/
     #hero {
-        background-position: top center;
+
+        background-position: 50% 25%;
         height: 1000px;
     }
+
 
     /*Video section*/
 
     /*Increase the height of the video frame*/
+
     #video-wrapper {
         height: 600px;
     }
 
     /*Make the iframe smaller*/
 
-
     #video {
         max-width: 80%;
         min-width: 80%;
     }
-
 
     /*Categories page*/
 
