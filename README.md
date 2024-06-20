@@ -206,7 +206,7 @@ The next section has to do with the first pillar of Well-Being, *Health*. This s
   2. Mental Health
   3. Overal Wellness
 
-![Screenshot of Health Section](assets\images\readme\health-screenshot.png)
+![Screenshot of Health Section](assets/images/readme/health-screenshot.png)
 
 
 ### __Social Connections__
@@ -217,7 +217,7 @@ The second pillar of Well-Being is *Social Connections*. This section contains t
   2. Community Engagement
   3. Social Support
 
-![Screenshot of Social Connections Section](assets\images\readme\social.png)
+![Screenshot of Social Connections Section](assets/images/readme/social.png)
 
 
 ### __Financial Stability__
