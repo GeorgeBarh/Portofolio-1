@@ -28,6 +28,7 @@ header {
     align-items: baseline;
 }
 
+
 header a {
     text-decoration: none;
     color: inherit;
@@ -37,6 +38,7 @@ header a {
     font-family: "Anek Devanagari", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    padding-top: 10px;
 }
 
 #menu {
@@ -54,7 +56,7 @@ header a {
 }
 
 
-a:hover {
+header ul a:hover {
     border-bottom: 1px solid black;
 }
 
@@ -242,6 +244,7 @@ span {
     font-size: 150%;
     letter-spacing: 0.5px;
     line-height:30px ;
+    padding-top: 20px;
 
 }
 
@@ -436,41 +439,26 @@ span {
     padding: 5px;
 }
 
-input[type="checkbox"], input[type="radio"] {
-    color: rgb(211, 230, 198);
-    accent-color: rgb(74, 84, 67);
-    
-}
-
-input[type="checkbox"]:checked, input[type="radio"]:checked {
-    width: 20px;
-    height: 20px;
-    border: 1px solid rgb(74, 84, 67);
-}
 
 #submit {
     text-align: center;
     padding: 20px 0;
+    width: 100%;
 }
 
 .submit-button {
-    background-color: rgb(211, 230, 198);
-    color: #044024;
+background-color: #044024;
+   color: rgb(211, 230, 198);
+    width: 70%;
     font-size: 130%;
     font-style: oblique;
     padding: 10px;
-    border: 1px solid rgb(211, 230, 198);
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
 }
 
-.submit-button:active {
-background-color: #044024;
-  color: rgb(211, 230, 198);
-    width: 50%;
-    height: 3em;
-}
+
 
 
 /*Media query tablets and larger (>768 px)*/
