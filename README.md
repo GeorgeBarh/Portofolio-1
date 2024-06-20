@@ -123,7 +123,7 @@ The header,the footer and the favicon are featured in all the pages (index.html,
    3. [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) : When the user clicks it, links to the *Book a call page* (contact.html).
 
 
-    - This section allows to the user to easily navigate through the website without having to revert back to the previous page.
+  - This section allows to the user to easily navigate through the website without having to revert back to the previous page.
 
    ###  __Footer__
 
@@ -189,11 +189,7 @@ This page gives the user the oppurtunity to check how the organization operates,
 
 ### __Introduction__
 
-This section contains the title *The Three pillars of Well-Being*, a nav bar which the user can user so as to navigate through the three sections of the page *(Health, Social Connections and Financial Stability)* and a paragraph that describes the rest of the page's context and encourages the user to read more.
-
-![Screenshot of Well-being's director, giving a talk in TEDxLSE](assets/images/readme/categories-intro.png)
-
-That anchor links give the chance to the user (mostly to the mobile user) not to scroll down and provides interactivity so as to make the website more user friendly.
+The page contains the title *The Three pillars of Well-Being*, three section based on the three pillars of Well-Being *(Health, Social Connections and Financial Stability)* and at the bottom of the page an anchor link that encourage the user to book a call with the experts of the organiztion. Each of the pillars has three sub-categories in order the user to see more details about the areas that the organization could help the users.
 
 
 - Each section contains a heading, an image, relevant to the concept of the section,so as to draw the attention of the user and three sub-categories of each pillar.
@@ -210,7 +206,7 @@ The next section has to do with the first pillar of Well-Being, *Health*. This s
   2. Mental Health
   3. Overal Wellness
 
-![Screenshot of Health Section](assets\images\readme\health.png)
+![Screenshot of Health Section](assets\images\readme\health-screenshot.png)
 
 
 ### __Social Connections__
@@ -250,7 +246,19 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
   The required steps are simple and only needs a first name, a last name, a phone number and email address.  
    - The second part of the page contains a check button and a radio button and gives the opportunity to the user to provide day and time availability for the first call.
 
-   -The point of such a simple page structure is the user to be encouraged to sumbit the form without having to submit a lot of details. The phone number and the *Areas you want to improve* is not a required field. 
+   The *First Name* and the *Last Name* fields are necessery so as to know the person who wants to contact us.
+
+   The *Phone Number* and the *Email Address* are important so as to be able to contact them and schedule the call. 
+
+   The *AREAS YOU WANT TO IMPROVE* part is helping the organization prepare for the appointment and give the user the impression that the WELL-BEING is well-organized.
+
+   The *PICK A DAY* and *PICK A TIME* sections gives the user the option to chosse any time of their convenience that they want to book the call. 
+
+   __The *Phone Number* and the *Areas you want to improve* fields are not a required field.__ . The Phone Number is not required input field because the majority of the users are cautios about providing sensitive data. The Areas you want to improve section is not required because the user maybe has not target accurately in which area of his life he needs support. 
+
+   The rest of the input fields are required in order the form to be sumbited successfully. The reason for choosing defensive design is to make sure that the data that are being posted are valid and safe.
+  
+   -The point of such a simple page structure is the user to be encouraged to sumbit the form without having to submit a lot of details.  
 
    ![Screenshot of the contact details part of the form.](assets/images/readme/book-a-call-1.png)
    ![Screenshot of the availability part of the form](assets/images/readme/book-a-call-2.png)
@@ -263,48 +271,50 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
 
  ##  Header, Footer
 ### Header 
-  - The *logo* (WELL-BEING) is an anchor link and links to the  [About us](https://georgebarh.github.io/well-being-Portofolio-1/) page.
-  - The *navigation bar* includes three anchor links. In mobile screens responds as a toggle button and in  tablet screens and above (>768 px) the anchor links are displayed side by side. 
-       
-    1. [About us](https://georgebarh.github.io/well-being-Portofolio-1/) : When the user clicks it, links them to the *About us* (index.html).
-    2. [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html) : When the user clicks it, links them to the *Categories page* (categories.html).
-    3. [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) : When the user clicks it, links to the *Book a call page* (contact.html).
 
-- Footer 
+  | Description | Pass/Fail|
+|----------|----------|
+| The *logo* (WELL-BEING) is an anchor link and links to the  [About us](https://georgebarh.github.io/well-being-Portofolio-1/) page. | Pass |
+
+  - The *navigation bar* includes three anchor links. In mobile screens responds as a toggle button and in  tablet screens and above (>768 px) the anchor links are displayed side by side. 
+
+   | Description | Pass/Fail|
+|----------|----------|
+|[About us](https://georgebarh.github.io/well-being-Portofolio-1/) : When the user clicks it, links them to the *About us* (index.html). | Pass |
+[Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html) : When the user clicks it, links them to the *Categories page* (categories.html). | Pass |
+[Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) : When the user clicks it, links to the *Book a call page* (contact.html). |Pass|
+
+  ### Footer
+
+  - Footer 
   - The footer contains three font awesome icons that each of them links the user to the corresponding social media page. The pages are opening in a new tab in order the user not leave the home page.
+
+  | Description | Pass/Fail|
+|----------|----------|
+| When the user clicks the Facebook Icon it links them to [Facebook](https://www.facebook.com/)| Pass |
+| When the user clicks the Twitter Icon it links them to [Twitter](https://www.twitter.com/)| Pass |
+| When the user clicks the Instagram Icon it links them to [Instagram](https://www.instagram.com/) | Pass |
+
 
   ## [About us Page](https://georgebarh.github.io/well-being-Portofolio-1/index.html#about)
 
-   Except of the navbar in the header, the *About us* page has two anchor links that encourages the user to navigate to the other two pages of the website. Both elements are tested and working as they should.
+   Except of the navbar in the header, the *About us* page has two anchor links that encourages the user to navigate to the other two pages of the website.
 
-     1. At the *WHAT WE DO* section the user has the option to click the *Read more* anchor and link to the [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html).
+  | Description | Pass/Fail|
+|----------|----------|
+|  At the *WHAT WE DO* section the user has the option to click the *Read more* anchor and link to the [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html).| Pass |
+|  At the end of the *HOW WE DO IT* section the user has the option to click the *book your call* anchor which links to the [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) |Pass|
 
-     ![Screenshot of Read more anchor link](assets/images/readme/read-more-screenshot.png)
+   ![Screenshot of Read more anchor link](assets/images/readme/read-more-screenshot.png)
 
-     2. At the end of the *HOW WE DO IT* section the user has the option to click the *book your call* anchor which links to the [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html)
+  ![Screenshot of book your call anchor link](assets\images\readme\book-your-call-anchor-screenshot.png)
 
-     ![Screenshot of book your call anchor link](assets\images\readme\book-your-call-anchor-screenshot.png)
+  ## [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html)
 
-     ## [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html)
+  | Description | Pass/Fail|
+|----------|----------|
+| At the bottom of the Categories page there is another anchor link that encourages the user to book a call with the Well-being team. Once the user clicks the anchor link will be navigated to the [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) which opens in another tab so as not to force the user to leave the Categories page.| Pass |
 
- - At the top of the page, in the center of introduction div there is a navbar that gives the option to the user to click them and navigate to the sections of the Categories Page.
-
- The purpose of navigation bar at the top of the page is the user to be able to choose the area that he wants to learn more about without having to scroll down the page to find what he is more interested in.
-
-   1. *The Health* anchor links to the [Health section](https://georgebarh.github.io/well-being-Portofolio-1/categories.html#health) of the Categories Page.
-   2. The *Social Connections* anchor links to the [Social section](https://georgebarh.github.io/well-being-Portofolio-1/categories.html#social) of the Categories Page.
-   3. The *Financial Stability* anchor links to the [Finance section](https://georgebarh.github.io/well-being-Portofolio-1/categories.html#finance) of the Categories Page.
-
-  ![Screenshot of the nav bar in the Categories Page](assets\images\readme\nav-bar-categories.png)
-
-   - Below the navigation bar there is a paragraph that describes that follows in the page. In this paragraph the anchor *Read below* that when the user clicks it navigates them to the [Health section](https://georgebarh.github.io/well-being-Portofolio-1/categories.html#health) of the Categories Page so as to start read more details.
-
-   ![Screenshot of the Read Below anchor link in the Categories Page](assets\images\readme\read-below.png)
-
-  
-  That anchor links give the chance to the user (mostly to the mobile user) not to scroll down and provides interactivity so as to make the website more user friendly.
-
-  - At the bottom of the Categories page there is another anchor link that encourages the user to book a call with the Well-being team. Once the user clicks the anchor link will be navigated to the [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) which opens in another tab so as not to force the user to leave the Categories page.
 
    ![Screenshot of the Click Here anchor link at the bottom of the Categories Page](assets\images\readme\click-here.png)
 
@@ -312,23 +322,34 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
 
   ## [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html)
   - The form contains eight input fields that the user has to fill in in order to be able to sumbit the form. Only the six of the them are required. 
-      1. The *Phone Number* is a non required field because a lot of users are hesitating to provide such a sensitive information and it is possible not to sumbit the form for that reason.
-      2. The *Areas you want to improve* field is a non required because is working as an indication for the Well-Being team and gives the user a sense of control about the upcoming appointment.
 
-      ![Screenshot of the form with the required fields filled in](assets\images\readme\form-test-1.png)
-      ![Screenshot of the form with the required fields filled in](assets\images\readme\form-test-2.png)
+  | Description | Pass/Fail|
+|----------|----------|
+| The form in order to be sumbited successfuly has to have a First Name ,Last Name, Email Address, Pick a Day and Pick a Time input filled in otherwise it can not be sumbitted. | Pass |
+
+
+   1. The *Phone Number* is a non required field because a lot of users are hesitating to provide such a sensitive information and it is possible not to sumbit the form for that reason.
+   2. The *Areas you want to improve* field is a non required because is working as an indication for the Well-Being team and gives the user a sense of control about the upcoming appointment.
+
+  ![Screenshot of the form with the required fields filled in](assets\images\readme\form-test-1.png)
+  ![Screenshot of the form with the required fields filled in](assets\images\readme\form-test-2.png)
 
  ## 3.2 Bugs 
 
 
  1. In the *Book a call* page the *about us* anchor link of the navigation bar could not link to the proper element.
+
  ![Screenshot of the above bug](assets/images/readme/about-us-bug.png)
 
   After research in the Stack Overflow I realised that I had to write the following.
 
   ![Screenshot of the above solution](assets/images/readme/about-us-solution.png)
 
-  ### __Lighthouse - Performance__
+  - There were a few other bugs during the production that I fixed while I was doing tests and I was not able to track all of the back.
+
+  ## 3.3 Lighthouse 
+  
+  ### Performance
  
   After the lighthouse overview in the Chrome DevTools I realised that the performance of website was very poor because of delay to load the background images. 
     - Based on the DevTools instructions I preloaded both of the background images in the head element.
@@ -339,7 +360,7 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
 
    In order to further improve the performance of the website I converted the  background images from .jpg to webp after the instruction of the Chrome DevTools.
 
-   ### __Lighthouse - Accessibility__
+   ### Accessibility
   - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighhouse in DevTools.
 
   ![Screenshot of Lighthouse score](assets/images/readme/lighthouse.png)
@@ -347,7 +368,7 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
 
 
   
- ### __Validator Testing__ 
+ ## 3.4 __Validator Testing__ 
 
   1. HTML
          
@@ -385,11 +406,9 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
 
   - The images in the categories page during the Live Preview seemed to work properly without any deformation.
 
-  ![Screenshot of the images during production](assets\images\readme\image-in-live-preview.png)
 
   - Once I deployed the project the images were streched
   
-  ![Screenshot of the images after deployment](assets\images\readme\image-in-deployment.png)
 
  - __Solution__ : In order to fix the bug I did the following changes in the CSS code. ![Screenshot of the code after I fixed the streched images](assets\images\readme\image-deployment-fix.png)
 
@@ -408,6 +427,8 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
   - The images were taken from [Pexels](https://www.pexels.com/search/free/).
   
   - The screenshot of the README.md file for testing the responsiveness in all screens was taken from the [Am I Responsive](https://ui.dev/amiresponsive) website.
+
+  - The video was taken from the Youtube Channel [TEDx Talks](https://www.youtube.com/@TEDx).
 
           
 
