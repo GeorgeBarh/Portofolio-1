@@ -228,14 +228,14 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
   2. Saving and Investments
   3. Debt Management
 
-![Screenshot of Financial Stability Section](assets\images\readme\financial.png)
+![Screenshot of Financial Stability Section](assets/images/readme/financial.png)
 
 - At the bottom of the page there is an anchor that encourages the user to do the next step and book a call with members of the Well-Being team.
 
  At the bottom of the Categories page the is another anchor link that encourages the user to do the next step after he read the context of this page.
   The next step would be the user to book a call with the Well-being team and he has the option right there after he finished the reading of this page.
 
- ![Screenshot of the bottom of the categories page](assets\images\readme\click-here-screenshot.png)
+ ![Screenshot of the bottom of the categories page](assets/images/readme/click-here-screenshot.png)
  
 
 
@@ -307,7 +307,7 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
 
    ![Screenshot of Read more anchor link](assets/images/readme/read-more-screenshot.png)
 
-  ![Screenshot of book your call anchor link](assets\images\readme\book-your-call-anchor-screenshot.png)
+  ![Screenshot of book your call anchor link](assets/images/readme/book-your-call-anchor-screenshot.png)
 
   ## [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html)
 
@@ -316,7 +316,7 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
 | At the bottom of the Categories page there is another anchor link that encourages the user to book a call with the Well-being team. Once the user clicks the anchor link will be navigated to the [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) which opens in another tab so as not to force the user to leave the Categories page.| Pass |
 
 
-   ![Screenshot of the Click Here anchor link at the bottom of the Categories Page](assets\images\readme\click-here.png)
+   ![Screenshot of the Click Here anchor link at the bottom of the Categories Page](assets/images/readme/click-here.png)
 
 
 
@@ -331,8 +331,8 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
    1. The *Phone Number* is a non required field because a lot of users are hesitating to provide such a sensitive information and it is possible not to sumbit the form for that reason.
    2. The *Areas you want to improve* field is a non required because is working as an indication for the Well-Being team and gives the user a sense of control about the upcoming appointment.
 
-  ![Screenshot of the form with the required fields filled in](assets\images\readme\form-test-1.png)
-  ![Screenshot of the form with the required fields filled in](assets\images\readme\form-test-2.png)
+  ![Screenshot of the form with the required fields filled in](assets/images/readme/form-test-1.png)
+  ![Screenshot of the form with the required fields filled in](assets/images/readme/form-test-2.png)
 
  ## 3.2 Bugs 
 
@@ -378,11 +378,11 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
 
   - [Book a Call page](https://georgebarh.github.io/well-being-Portofolio-1/contact.html) : 1 errors showed in [W3C validator](https://validator.w3.org/nu/).
 
-  ![Screenshot of the error in Book a Call page](assets\images\readme\book-a-call-validator.png)
+  ![Screenshot of the error in Book a Call page](assets/images/readme/book-a-call-validator.png)
 
   Solution :
   
-   ![Screenshot of the fixed code](assets\images\readme\fixed-h2.png)
+   ![Screenshot of the fixed code](assets/images/readme/fixed-h2.png)
 
   2.  CSS - Erros according to [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator) : 
 
@@ -410,7 +410,7 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
   - Once I deployed the project the images were streched
   
 
- - __Solution__ : In order to fix the bug I did the following changes in the CSS code. ![Screenshot of the code after I fixed the streched images](assets\images\readme\image-deployment-fix.png)
+ - __Solution__ : In order to fix the bug I did the following changes in the CSS code. ![Screenshot of the code after I fixed the streched images](assets/images/readme/image-deployment-fix.png)
 
  # 5. Credits
 
