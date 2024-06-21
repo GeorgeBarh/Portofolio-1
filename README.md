@@ -345,7 +345,9 @@ The third pillar of Well-Being is *Financial Stability*. This section contains t
 
   ![Screenshot of the above solution](assets/images/readme/about-us-solution.png)
 
-  - There were a few other bugs during the production that I fixed while I was doing tests and I was not able to track all of the back.
+  -The image in the [Categories page](https://georgebarh.github.io/well-being-Portofolio-1/categories.html) at the **Health Section** was streching in larger screens and I replaced it with a higher resolution landscape image.
+
+  - There were a few other bugs that I fixed during the production while I was doing tests and I was not able to track them all back.
 
   ## 3.3 Lighthouse 
   
